@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">We Share</string>
+    <string name="appnameLabel">WeShare</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="signinlabel">Sign in with your Andrew ID</string>
+    <string name="usernamelabel">Andrew ID</string>
+    <string name="pswlabel">Password</string>
+    <string name="regLabel">create new account</string>
+    <string name="title_activity_register">MainActivity</string>
+    <string name="createLabel">Create your WeShare Account</string>
+    <string name="pswconlabel">Confirm Password</string>
+    <string name="title_activity_select_course">SelectCourseActivity</string>
+    <string name="uploadHis">Upload History</string>
+    <string name="downloadHis">Download Hist</string>
+    <string name="title_activity_upload_history">UploadHistory</string>
+    <string name="title_activity_download_history">DownloadHistory</string>
+    <string name="java">Java for smartphone</string>
+    <string name="mobile">Mobile Hardware</string>
+    <string name="machine">Machine learning</string>
+    <string name="selectcourselabel">Select Course</string>
+    <string name="imageLabel">Images</string>
+    <string name="takephotoLabel">Take Photo</string>
+    <string name="selectphotoLabel">Select Photo</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_takephoto">TakePhotoActivity</string>
+    <string name="title_activity_selectphoto">SelectPhotoActivity</string>
+    <string name="get_photo">Take Photo</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_select_video">SelectVideoActivity</string>
+    <string name="title_activity_take_video">TakeVideoActivity</string>
+    <string name="title_activity_java_course_chosen">JavaCourseChosenActivity</string>
+    <string name="images">Images</string>
+    <string name="documents">Documents</string>
+    <string name="videos">Videos</string>
+    <string name="selectFormat">Select Format</string>
+    <string name="title_activity_documents">DocumentsActivity</string>
+	<string name="videoLabel">Videos</string>
+    <string name="takevideoLabel">Take Video</string>
+    <string name="selectvideoLabel">Select Video</string>
+    <string name="document_content">File Reading:</string>
+    <string name="null_content"/>
+    <string name="verify_button">Verify</string>
+</resources>

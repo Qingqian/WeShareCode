@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".JavaCourseChosenActivity" >
+
+    <Button
+        android:id="@+id/videosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/documentsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:text="@string/videos" />
+
+    <Button
+        android:id="@+id/documentsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="223dp"
+        android:gravity="fill_horizontal|center|fill"
+        android:text="@string/documents" />
+
+    <Button
+        android:id="@+id/imagesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/documentsButton"
+        android:layout_alignLeft="@+id/videosButton"
+        android:layout_marginBottom="96dp"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:text="@string/images" />
+
+    <TextView
+        android:id="@+id/selectFormatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imagesButton"
+        android:layout_marginBottom="52dp"
+        android:text="Select Format" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+     > 
+     <!-- android:layout_height="210dip" -->
+   <!--  android:layout_marginTop="10dip" -->
+   
+    <TextView
+        android:id="@+id/appnamelabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:text="@string/appnameLabel"
+        android:textSize="100sp"
+        android:textStyle="normal|bold"
+        android:typeface="sans" />
+
+ <TextView
+     android:id="@+id/signinlabelmini"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/appnamelabel"
+     android:layout_marginTop="20dip"
+     android:gravity="center"
+     android:text="@string/signinlabel"
+     android:textColor="#444444"
+     android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/reglabel"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="66dp"
+        android:gravity="center"
+        android:text="@string/regLabel"
+        android:textColor="#e6e6e6"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/reglabel"
+        android:layout_alignLeft="@+id/login_password"
+        android:layout_marginBottom="24dp"
+        android:onClick="readWebpage"
+        android:text="Sign In" />
+
+    <EditText
+        android:id="@+id/login_andrew_id"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/signinlabelmini"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/usernamelabel"
+        android:lines="1" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/login_andrew_id"
+        android:layout_below="@+id/login_andrew_id"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/pswlabel"
+        android:lines="1"
+        android:password="true" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

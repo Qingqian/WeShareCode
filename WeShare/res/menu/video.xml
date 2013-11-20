@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/takevideoLabel"
+	android:title="@string/takevideoLabel" />
+	<item android:id="@+id/selectvideoLabel"
+	android:title="@string/selectvideoLabel" />
+
+
+</menu>

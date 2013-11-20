@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterActivity" >
+
+    <TextView
+        android:id="@+id/appnamelabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="@string/appnameLabel"
+        android:textSize="60sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/createLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/appnamelabel1"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="@string/createLabel"
+        android:textColor="#E5E4E2"
+        android:textSize="30sp" />
+
+     <TextView
+         android:id="@+id/idLabel"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/createLabel"
+         android:layout_marginTop="10dip"
+         android:text="@string/usernamelabel"
+         android:textSize="30sp" />
+
+ <EditText
+     android:id="@+id/register_andrew_id"
+     android:layout_width="fill_parent"
+     android:layout_height="60dp"
+     android:layout_alignLeft="@+id/idLabel"
+     android:layout_below="@+id/idLabel"
+     android:background="@android:drawable/editbox_background"
+     android:ems="10"
+     android:gravity="center"
+     android:lines="1"
+     android:textSize="30sp" >
+
+     <requestFocus />
+ </EditText>
+
+ <TextView
+     android:id="@+id/pswLabel1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/register_andrew_id"
+     android:layout_below="@+id/register_andrew_id"
+     android:text="@string/pswlabel"
+     android:textSize="30sp" />
+
+ <Button
+     android:id="@+id/register_button"
+     android:layout_width="300dp"
+     android:layout_height="60dp"
+     android:layout_alignRight="@+id/password_confirm"
+     android:layout_below="@+id/password_confirm"
+     android:layout_marginTop="124dp"
+                     android:onClick="readWebpage"
+     android:text="Sign In" />
+
+ <EditText
+     android:id="@+id/register_password"
+     android:layout_width="fill_parent"
+     android:layout_height="60dp"
+     android:layout_alignLeft="@+id/pswLabel1"
+     android:layout_below="@+id/pswLabel1"
+     android:background="@android:drawable/editbox_background"
+     android:ems="10"
+     android:gravity="center"
+     android:lines="1"
+     android:password="true"
+     android:textSize="30sp" />
+
+ <TextView
+     android:id="@+id/pswLabel2"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/register_password"
+     android:layout_below="@+id/register_password"
+     android:text="@string/pswconlabel"
+     android:textSize="30sp" />
+
+ <EditText
+     android:id="@+id/password_confirm"
+     android:layout_width="fill_parent"
+     android:layout_height="60dp"
+     android:layout_alignLeft="@+id/pswLabel2"
+     android:layout_below="@+id/pswLabel2"
+     android:background="@android:drawable/editbox_background"
+     android:ems="10"
+     android:gravity="center"
+     android:lines="1"
+     android:password="true"
+     android:textSize="30sp" />
+
+</RelativeLayout>
